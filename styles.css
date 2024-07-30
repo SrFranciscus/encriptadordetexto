@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+    --color-primario: #074173AF;
+    --color-secundario: #1679AB;
+    --color-terciario: #C5FF95;
+    --color-hover: #ffffff;
+
+    --fuente-opensans: 'OpenSans';
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
+    box-sizing: border-box;
+}
+
+main {
+    border: red 2px solid;
+    padding: 30px;
+    margin: 10px;
+    display: flex;
+  
+    /* background-color: orange; */
+  }
+
+footer {
+    border: red 2px solid;
+    padding: 30px;
+    margin: 10px;
+    /* background-color: blue; */
+  }
+
+textarea {
+    width: 90%;
+    height: 300px;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    resize: none;
+  }
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+  }
+.secciontres {
+    text-align: right;
+}

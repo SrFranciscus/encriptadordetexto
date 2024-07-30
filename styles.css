@@ -43,6 +43,7 @@ textarea {
     padding: 10px;
     font-size: 18px;
     resize: none;
+    outline: none;
   }
 
 button {

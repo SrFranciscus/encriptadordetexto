@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 :root{
-    --color-primario: #074173AF;
-    --color-secundario: #1679AB;
-    --color-terciario: #C5FF95;
-    --color-hover: #ffffff;
+    --color-fondo: #F3F5FC;
+    --color-seccion-uno: #F3F5FC;
+    --color-seccion-botones: #D8DFE8;
+    --color-seccion-dos: #FFFFFF;
+    --color-hover: #0A3871;
 
     --fuente-opensans: 'OpenSans';
 }
@@ -15,13 +16,13 @@
 }
 
 body {
-    background-color: var(--color-primario);
-    color: var(--color-secundario);
+    background-color: var(--color-fondo);
+    color: var(--color-seccion-uno);
     box-sizing: border-box;
 }
 
 main {
-    border: red 2px solid;
+    border: #0A3871 2px solid;
     padding: 30px;
     margin: 10px;
     display: flex;
@@ -30,30 +31,33 @@ main {
   }
 
 footer {
-    border: red 2px solid;
+    border: #0A3871 2px solid;
     padding: 30px;
     margin: 10px;
     /* background-color: blue; */
   }
 
 textarea {
-    width: 90%;
-    height: 300px;
+    width: 680px;
+    height: 288px;
     border: none;
     padding: 10px;
-    font-size: 18px;
+    font-size: 32px;
     resize: none;
     outline: none;
+    fill: #0A3871;
+    stroke: #000000;
   }
 
 button {
     padding: 10px;
     border-radius: 10px;
-    width: 100px;
+    width: 328px;
+    height: 67px;
   }
 .seccion-dos {
     text-align: right;
 }
 .seccion-resultado{
-    width: 40%;
+    width: 90%;
 }
